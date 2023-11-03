@@ -14,10 +14,6 @@ struct List
 	List* Next;
 };
 
-void AlphabetCheck(List* list, string word) {
-
-}
-
 List* AddToList(List* list, string word) {
 	List* q = list;
 	int length = word.length();
